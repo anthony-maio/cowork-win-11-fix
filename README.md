@@ -10,7 +10,7 @@ This project targets the Windows error where Claude's packaged `CoworkVMService`
 4. Run the copied binary directly
 5. Keep the copied binary in sync after Claude updates
 
-This repository does that without license checks, trials, payment gates, or remote activation.
+This repository does that with no remote calls, no activation, and nothing to sign up for.
 
 ## What it installs
 
@@ -80,7 +80,7 @@ powershell -ExecutionPolicy Bypass -File "$env:LOCALAPPDATA\ClaudeCoworkFix\scri
 
 ## Project scope
 
-This is a clean-room open-source implementation of the public workaround behavior. It does not reuse the paid repo's licensing system, trial logic, or admin tooling.
+This is a clean-room open-source implementation of the public workaround behavior.
 
 This project is not affiliated with Anthropic.
 
